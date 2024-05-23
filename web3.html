@@ -2,13 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <script defer src="js/web7.js"></script>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="web4.css">
+    <link rel="stylesheet" type="text/css" href="web4(320).css">
+    <link rel="stylesheet" type="text/css" href="animation(lab5).css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Designstripe</title>
+    <link rel="icon" type="images/x-icon" href="favicon.ico">
 </head>
 <body>
     <header>
         <div class="header">
+            <nav class="menu">
+                <ul class="menu_list">
+                    <li><a class="menu_link" href ="#link1">Pictures</a></li>
+                    <li><a class="menu_link" href ="#link2">Design</a></li>
+                    <li><a class="menu_link" href ="#link3">Sign Up</a></li>
+                </ul>
+        </nav>
+        <div class="overlay"></div>
+        <button class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </button>
             <div class="blockleft">
                 <div class="left1">                   
                     <a class="text0">Illustrations</a>                    
@@ -34,7 +52,6 @@
                    Sign Up
                 </button>
             </div>
-        </div>
     </header>
     <main>
         <div class="container1">
@@ -44,7 +61,6 @@
         <div class="vector">
             <img class="photo" src="Vector.png" alt="photo"> 
         </div>
-            
             <div class="text1">
                 Create beautiful illustrations, no design skills needed
             </div>
@@ -55,6 +71,8 @@
                 Find the perfect illustration
             </button>  
             <img class="frame" src="Frame.png" alt="photo"> 
+            <img class="photo401" src="401.png" alt="photo"> 
+            <img class="photo402" src="computer.png" alt="photo"> 
         </div>
         <div class="container2"></div>
         <div class="container3">
@@ -84,13 +102,17 @@
             </div>
         </div>
         <div class="container4"></div>
-        <div class="container5">
+        <div class="container5" id="link2">
             <button class="text7">Try designstripe now</button>
             <div class="text5">Simple, powerful (and fun!) customization tools</div>
             <div class="image7">
                 <img class="photo" src="hower.png" alt="photo">
             </div>
-            <div class="block1">
+            <div class="block1" id="sign">
+                <div class="blockphoto111">
+                    <img class="photo" src="web41.png" alt="photo">
+                </div>
+
                 <div class="blockphoto">
                     <img class="photo" src="1.png" alt="photo">
                 </div>
@@ -107,8 +129,16 @@
                 <div class="block1text3">Add your brand's colors, them in place, and let us generate the rest. Or create new palettes from scratch</div>
             </div>
             <div class="block3">
+
+                <div class="blockphoto222">
+                    <img class="photo" src="web42.png" alt="photo">
+                </div>
+
                 <div class="blockphoto">
-                    <img class="photo" src="2.png" alt="photo">
+                    <img class="photoslider1 active" src="photoslider.png" alt="photo">
+                    <img class="photoslider1" src="2.png" alt="photo">
+                    <img class="photoleft controls" src="left.png" alt="photo">
+                    <img class="photoright controls" src="right.png" alt="photo">
                 </div>
                 <div class="block1text1">Variations</div>
                 <div class="block1text2">Swap and change every object, they all magically fit and work</div>
@@ -126,7 +156,7 @@
             <div class="text6"></div>
         </div>
         <div class="container6"></div>
-        <div class="container7">
+        <div class="container7" id="link1">
             <button class="textbox72">Find the product illustration</button>
             <div class="textbox7">
                 Hand-crafted styles for every brand & use-case
@@ -152,7 +182,7 @@
         </div>
         <div class="container8">
             <div class="text81">Illustrated with designstripe</div>
-            <div class="text82">From big companies, to small local shops to simple party invitations. We have something for every need!</div>
+            <div class="text82">From big companies, to a small local shops to simple party invitations. We have something for every need!</div>
             <div class="text83">More community creations coming soon</div>
             <div class="picture81">
                 <img class="photo" src="Frame81.png" alt="photo">
@@ -180,8 +210,12 @@
             <div class="picture93">
                 <img class="photo" src="Vector93.png" alt="photo">
             </div>
-            <div class="text93">Join the mailing list 🎉</div>
+            <div class="text93" id="link3">Join the mailing list 🎉</div>
             <div class="text94">Be the first to get content updates!</div>
+        </div>
+        <div class="geolocation">
+            <div class="geolocation1">Our location</div>
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A9c4ca8b584102bcafb72a0c8db90606d775c13c846fe3652d6156919f943b60b&amp;width=100%&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
         </div>
     </main>
     <footer>

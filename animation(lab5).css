@@ -1,0 +1,133 @@
+/*
+@keyframes backgroundAnimation {
+    0% {
+        background-color: #E9DCD6;
+    }
+    50% {
+        background-color: linear-gradient(to right, #daecec, #59d4d4);
+    }
+    100% {
+        background-color: #15c0b4;
+    }
+}
+
+@keyframes fadeOutAnimation {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes pulseAnimation {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(10%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes ChangeSizeAnimation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes rotateAnimation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes blurAnimation {
+    0% {
+        filter: blur(0);
+    }
+    50% {
+        filter: blur(10px);
+    }
+    100% {
+        filter: blur(0);
+    }
+}
+
+@keyframes fadeBorderColorAnimation {
+    0% {
+        opacity: 1;
+        border-color: #391145;
+    }
+    50% {
+        opacity: 0;
+        border-color: #FF0000;
+    }
+    100% {
+        opacity: 1;
+        border-color: #391145;
+    }
+}
+
+@keyframes UpDownAnimation {
+    0% {
+        height: 3.22%;
+    }
+    50% {
+        height: 4%;
+    }
+    100% {
+        height: 3.22%;
+    }
+}
+
+@keyframes colorAnimation {
+    0% {
+        background-color: #E9DCD6;
+    }
+    50% {
+        background-color: #15c0b4;
+    }
+    100% {
+        background-color: #E9DCD6;
+    }
+}
+
+@keyframes saturationAnimation {
+    0% {
+        filter: saturate(100%);
+    }
+    50% {
+        filter: saturate(1000%);
+    }
+    100% {
+        filter: saturate(100%);
+    }
+}
+
+@keyframes fadeAndMoveAnimation {
+    0% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+    50% {
+        opacity: 0;
+        transform: translateX(30%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+*/
